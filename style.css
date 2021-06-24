@@ -1,0 +1,23 @@
+form {
+    background-color: blue;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 100px auto 100px;
+    padding: 25px;
+}
+.error{
+    display: none;
+}
+
+.showError{
+    color: red;
+    background: white;
+    padding: 6px;
+    border-radius: 5px;
+    max-width: 222px;
+    font-size: 13px;
+    text-transform: capitalize;
+    display: block !important;
+}
+

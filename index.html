@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Weight Converstion Tool</title>
+</head>
+<body>
+    <div>
+        
+        <form>
+            <h1>Weight Converter (pounds to kg)</h1>
+            <h5 class="error">input cannot be less than 0 or 0</h5>
+            <p>Enter weight value in pounds:</p>
+            <label>Pounds</label>
+            <input type="number" step=".1" onchange="poundToKGConversion(this)">
+            <p>Your weight in Kilograms is: <span id="result"></span></p>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
